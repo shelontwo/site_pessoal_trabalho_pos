@@ -6,3 +6,138 @@
 .np{
 	padding: 0px !important;
 }
+*,*{
+	text-decoration: none !important;
+}
+img{
+	max-width: 100%;
+}
+header{
+	background-color: #FFF;
+	height: 10vh;
+	min-height: 100px !important;
+	-webkit-box-shadow: 0px 11px 23px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 11px 23px -9px rgba(0,0,0,0.75);
+	box-shadow: 0px 11px 23px -9px rgba(0,0,0,0.75);
+	display: table;
+	width: 100%;
+}
+#banner{
+	margin-top: 10vh;
+	height: calc(100vh - 10vh);
+	.flexslider{
+		.slides{
+		height: calc(100vh - 10vh);			
+			li{				
+				height: 100%;
+				background-size: cover;
+				background-position: center top;
+				.nome_projeto{
+					display: table-cell;
+					vertical-align: middle;
+					width: 100vw;
+					height: 90vh;
+					color: #FFF;
+					background-color: rgba(0, 0, 0, 0.6);
+					font-size: 10vw;
+					text-align: center;
+				}
+			}
+		}
+	}
+}
+.logo{
+	float: none !important;
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	font-size: 2vh;
+	a{
+		color: #CECECE;
+		font-weight: bold;
+		text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+	}
+}
+nav{
+	height: 100%;
+	ul{
+		height: 100%;
+		display: table;
+		a{
+			color: #cecece;
+			font-weight: bold;
+			display: table-cell;			
+			vertical-align: middle;
+			text-align: center;
+			li{
+			width: 10vw;
+			margin-right: 10px;			
+			}
+			&:hover{
+				background-color: #cecece;
+				color: #fff;
+			};
+			&:active{
+				color: #7e7e7e;
+				background-color: #cecece;
+			};
+			&:focus{
+				color: #7e7e7e;
+				background-color: #cecece;
+			};
+		}
+	}
+}
+.box{
+	&.qs{
+		background-color: #1A242F;
+	}
+	&.mp{
+		background-color: #f39c12;
+	}
+	height: 100vh;
+	display: table;
+	.conteudo{
+		display: table-cell;
+		height: 100vh;
+		width: 100vw;
+		text-align: center;
+		vertical-align: middle;
+		h1{
+			color: #7e7e7e;
+			color: #fff;
+			text-transform: uppercase;
+		}
+		.meio{
+			float: none;
+			text-align: center;
+			vertical-align: middle;
+			display: table-cell;
+			height: 100%;
+			color: #fff;
+		}
+	}
+}
+.projetos{
+	float: left;
+	width: 100%;
+	margin-top: 5vh;
+	li{
+		background-color: rgba(0, 0, 0, 0.1);
+		margin: 1vw;
+		display: table-cell;
+		vertical-align: middle;
+		img{
+			width: initial;
+			max-width: 100%;
+		}
+		width: 20vw;
+		min-width: 150px;
+		height: 10vh;
+	}
+}
+.contato{
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+}

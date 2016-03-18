@@ -3,76 +3,225 @@
 <head>
 	<title>Evandro Diego Erlo</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="assets/css/style_v1.css">
 </head>
 <body id="topo">
-<header class="col-md-12">
+<header class="col-md-12 navbar-fixed-top">
 	<div class="logo col-md-3">
-		<a href="#topo" title="Evandro - Home" id="logo">
+		<a href="#topo" title="Evandro - Home">
 			<i>EVANDRO</i>
 		</a>
 	</div>
-	<nav class="menu col-md-9">
+	<nav class="menu col-md-9 pull-right">
 		<ul>
-			<li>
-				<a href="#topo" title="Home">Home</a>
-			</li>
-			<li>
-				<a href="#sobre" title="Sobre">Sobre</a>
-			</li>
-			<li>
-				<a href="#portfolio" title="Portfolio">
-					Portfolio
-				</a>
-			</li>
-			<li>
-				<a href="#contato" title="Contato">Contato</a>
-			</li>
+			<a href="#topo" title="Home">
+				<li>
+					Home
+				</li>
+			</a>
+			<a href="#sobre" title="Sobre">
+				<li>
+					Sobre
+				</li>
+			</a>
+			<a href="#portfolio" title="Portfolio">
+				<li>
+					Portfolio					
+				</li>
+			</a>
+			<a href="#contato" title="Contato">
+				<li>
+					Contato
+				</li>
+			</a>
 		</ul>
 	</nav>
 </header>
 <div id="banner" class="col-md-12 np">
 	<div class="flexslider">
 	  <ul class="slides">
-	    <li>
-	      <img src="assets/img/compufacil.jpg" />
+	    <li style="background-image: url('assets/img/compufacil.jpg')">
+	   		<a href="http://compufacil.com.br" target="_blank">
+		    	<div class="nome_projeto">
+		    		CompuFácil
+		    	</div>
+	    	</a>
 	    </li>
-	    <li>
-	      <img src="assets/img/ita.jpg" />
+	    <li style="background-image: url('assets/img/ita.jpg')">
+	    	<a href="http://itathermas.com.br" target="_blank">
+		     	<div class="nome_projeto">
+		    		Itá Thermas
+		    	</div>
+		    </a>	
 	    </li>
-	    <li>
-	      <img src="assets/img/seta.jpg" />
+	    <li style="background-image: url('assets/img/seta.jpg')">
+	    	<a href="http://setaengenharia.com.br" target="_blank">
+		      	<div class="nome_projeto">
+		    		SETA Engenharia
+		    	</div>
+		    </a>	
 	    </li>	   
 	  </ul>
 	</div>
 </div>
-<div class="box" id="sobre">
-	<div class="container">
-		<h1>Sobre a Tidinha</h1>
-
-		<div class="colunas">
-			
+<div class="box qs col-md-12" id="sobre">
+	<div class="conteudo">
+		<h1>Quem sou?</h1>
+		<div class="col-md-4 meio">
+			 <img src="assets/img/evandro.jpg" alt="" class="img-circle">
 		</div>
-		<div class="colunas">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. </p>
-			<p>Ut enim ad minim veniam,	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat.</p>
+		<div class="col-md-8 meio">	
+			  <p>
+			    Atualmente trabalhando como desenvolvedor na Empresa 
+			      <a href="http://o2.ag/" target="_blank">
+			        <i>ó Dois Multicomunicação</i>
+			      </a>, trabalho com a empresa a mais de 5 anos com foco total em desenvolvimento.
+			  </p>
+			  <p>
+			    Trabalhei em vários projetos de grande porte, veja em meu <a href="#portifolio"><i>portifólio</i></a> alguns dos projetos que participei desde o início.
+			  </p>
+			  <p>
+			  	<a class="pull-left" href="https://www.linkedin.com/in/evandro-diego-erlo-54b60271" target="_blank">
+			  		<img src="assets/img/linkedin.png" alt="" width="30px">
+			  	</a>
+			  </p>
 		</div>
 	</div>
 </div>
 
-<div class="box" id="portfolio">
-	<div class="container">
+<div class="box col-md-12 mp" id="portfolio">
+	<div class="conteudo">
 		<h1>Meu Portfólio</h1>
-
+		<div class="meio col-md-8">
+			<ul class="projetos">
+				  <a href="http://setaengenharia.com.br/" target="_blank">
+				    <li class="item">   
+				          <img src="http://setaengenharia.com.br/web-files/site/images/logomarca.png" alt="SETA Engenharia"> 
+				    </li> 
+				  </a>
+				   <a href="http://itathermas.com.br/" target="_blank">
+					   <li class="item">
+					    
+					        <img src="http://www.itathermas.com.br/web-files/site/img/logo_topo.png" alt="Itá Thermas"> 
+					    
+					  </li> 
+				  </a>
+				   <a href="http://o2multi.com.br/" target="_blank">
+					   <li class="item">
+					          
+					        <img src="http://www.o2multi.com.br/web-files/site/img/logo_topo.png" alt="o2.ag"> 
+					    
+					  </li> 
+				   </a>
+				   <a href="http://rottseguros.com.br/" target="_blank">
+					   <li class="item">
+					    
+					        <img src="http://rottseguros.com.br//web-files/site/img/logo_footer.png" alt="Rottweiller Seguros"> 
+					    
+					  </li> 
+				   </a>
+				     <a href="http://www.imobiliariapacheco.com.br/" target="_blank">
+					   <li class="item">
+					    
+					        <img src="http://www.imobiliariapacheco.com.br/web-files/site/img/logo_topo.png" alt="Pacheco Imóveis"> 
+					    
+					  </li> 
+				   </a>
+				    <a href="http://bertaimoveis.com.br/" target="_blank">
+					   <li class="item">
+					    
+					        <img src="http://bertaimoveis.com.br/web-files/site/img/logo_topo.png" alt="Berta Imóveis"> 
+					    
+					  </li> 
+				   </a>
+				     <a href="http://bertaimoveis.com.br/" target="_blank">
+					   <li class="item">
+					    
+					        <img src="http://bertaimoveis.com.br/web-files/site/img/logo_topo.png" alt="Berta Imóveis"> 
+					    
+					  </li> 
+				   </a>
+				   <a href="http://aguiaseguros.com.br/" target="_blank">
+					   <li class="item">
+					    
+					        <img src="http://aguiaseguros.com.br/web-files/site/img/logo_topo.png" alt="Águia Seguros"> 
+					    
+					  </li> 
+				   </a>
+				   <a href="http://compufacil.com.br/" target="_blank">
+					   <li class="item">
+					    
+					        <img src="http://compufacil.com.br/web-files/site/img/logo_rodape.png" alt="CompuFácil"> 
+					    
+					  </li> 
+				   </a>
+				   <a href="http://concordia.psi.br/" target="_blank">
+					   <li class="item">
+					    
+					        <img src="http://www.concordia.psi.br/web-files/template/images/logo_topo.png" alt="Interline"> 
+					    
+					  </li> 
+				  </a>
+				   <a href="http://planosaocamilo.com.br/" target="_blank">
+					   <li class="item">
+					    
+					        <img src="http://planosaocamilo.com.br/web-files/site/images/logo_saocamilo.png" alt="Plano São Camilo"> 
+					    
+					  </li> 
+				  </a>
+				   <a href="http://radioalianca.com.br/" target="_blank">
+					   <li class="item">
+					    
+					        <img src="http://www.radioalianca.com.br/web-files/template/images/logo_topo.png" alt="Rádio Aliança"> 
+					    
+					  </li> 
+				   </a>
+				   <a href="http://goxdrive.com.br/" target="_blank">
+					  <li class="item">
+					    
+					        <img src="http://goxdrive.com.br/web-files/site/img/logo_topo.png" alt="Gox Drive"> 
+					    
+					  </li>
+				  </a>
+				   <a href="http://o2.ag/" target="_blank" style="color: #fff;">
+					  <li class="item">
+					    
+					       Mais...
+					    
+					  </li>
+				  </a>
+			</ul>			
+		</div>
 	</div>
 </div>
 
 <div class="box" id="contato">
-	<div class="container">
+	<div class="conteudo center">
 		<h1>Entre em Contato</h1>
-
+		<div class="meio contato">
+			<form action="#">
+			  <div class="form-group">
+			    <label for="exampleInputEmail1">Email address</label>
+			    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputPassword1">Password</label>
+			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputFile">File input</label>
+			    <input type="file" id="exampleInputFile">
+			    <p class="help-block">Example block-level help text here.</p>
+			  </div>
+			  <div class="checkbox">
+			    <label>
+			      <input type="checkbox"> Check me out
+			    </label>
+			  </div>
+			  <button type="submit" class="btn btn-default">Submit</button>
+			</form>
+		</div>
 	</div>
 </div>
 
